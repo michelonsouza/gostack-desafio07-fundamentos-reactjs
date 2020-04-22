@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { format, parseISO } from 'date-fns';
 
-import { type } from 'os';
 import income from '../../assets/income.svg';
 import outcome from '../../assets/outcome.svg';
 import total from '../../assets/total.svg';
