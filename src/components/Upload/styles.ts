@@ -19,7 +19,7 @@ const dragReject = css`
 export const DropContainer = styled.div.attrs({
   className: 'dropzone',
 })`
-  border: 1.5px dashed #969cb3;
+  border: 1.5px dashed ${props => props.theme.colors.text};
   border-radius: 5px;
   cursor: pointer;
 
